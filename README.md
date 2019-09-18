@@ -1,6 +1,10 @@
-# testWebMonetization
+# Test Web Monetization
 
-> A simple test for web monetization
+> A simple test for web monetization. It is running live at [testwebmonetization.com](https://testwebmonetization.com).
+
+The demo is built with Vue.js and Nuxt.
+
+
 
 ## Build Setup
 

@@ -30,6 +30,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    {src: '~/plugins/VueClipboards'}
   ],
   /*
   ** Nuxt.js dev-modules
@@ -79,6 +80,14 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
+
+      config.module.rules.push({
+        enforce: 'pre',
+        test: /\.html$/,
+        loader: 'raw-loader',
+        exclude: /(node_modules)/
+      });
+
     }
   }
 }
