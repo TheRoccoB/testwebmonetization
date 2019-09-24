@@ -90,4 +90,8 @@ sw.*
 # Vim swap files
 *.swp
 
+#jetbrains ide (webstorm)
 .idea/
+
+#firebase hosting cache
+hosting*cache
