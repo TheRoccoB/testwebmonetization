@@ -61,7 +61,7 @@ export default {
       dark: true,
       themes: {
         dark: {
-          primary: colors.blue.darken2,
+          primary: "#3FC28D",
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,
@@ -83,7 +83,7 @@ export default {
 
       config.module.rules.push({
         enforce: 'pre',
-        test: /\.html$/,
+        test: /(demo\.html|simulateMonetization\.js|simulateBookmarklet\.txt)$/, //I want to be able to load the raw text in these files.
         loader: 'raw-loader',
         exclude: /(node_modules)/
       });

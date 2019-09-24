@@ -1,6 +1,17 @@
 # Test Web Monetization
 
-> A simple test for web monetization. It is running live at [testwebmonetization.com](https://testwebmonetization.com).
+> A website dedicated to testing web monetization. It is running live at [testwebmonetization.com](https://testwebmonetization.com).
+
+The most interesting file here is [the demo html page](https://github.com/TheRoccoB/testwebmonetization/blob/master/static/demo.html) that contains a full implementation of the Web Monetization javascript API.
+
+Regenerate bookmarklet (do this if you modify `/static/bookmarklet/simulateMonetization.js`:
+
+```
+npm i -g bookmarklet 
+
+bookmarklet static/bookmarklet/simulateMonetization.js > static/bookmarklet/simulateBookmarklet.txt
+```
+bookmarklet static/bookmarklet/simulateMonetization.js > simulateBookmarklet.txt
 
 The demo is built with Vue.js and Nuxt.
 
