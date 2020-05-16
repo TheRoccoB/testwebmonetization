@@ -27,7 +27,7 @@
       <v-btn class="primary" v-clipboard="simulateJS">Copy Source</v-btn> <v-btn class="primary" href="https://github.com/TheRoccoB/testwebmonetization/blob/master/static/bookmarklet/simulateMonetization.js">view on github</v-btn>
       <v-spacer></v-spacer>
     </v-card-actions>
-    <v-card-text><p>Hint: if you want to change parameters, you can run the <a href="/static/bookmarklet/simulateMonetization.js" style="inline-block">bookmarklet source code</a> as a script <a href="https://developers.google.com/web/tools/chrome-devtools/javascript/snippets">snippet</a> in Google Chrome.</p></v-card-text>
+    <v-card-text><p>Hint: if you want to change parameters, you can run the <a href="https://github.com/TheRoccoB/testwebmonetization/blob/master/static/bookmarklet/simulateMonetization.js" style="inline-block">bookmarklet source code</a> as a script <a href="https://developers.google.com/web/tools/chrome-devtools/javascript/snippets">snippet</a> in Google Chrome.</p></v-card-text>
     <v-card-title class="headline">Is this an Exploit?</v-card-title>
     <v-card-text>
       <p>If anybody can run this bookmarklet from their browser, is it an exploit?</p>
