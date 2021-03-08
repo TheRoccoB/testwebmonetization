@@ -19,7 +19,7 @@
     >
       <span>&copy; 2019 <a href="https://simmer.io">Simmer Industries</a></span>
       <v-spacer></v-spacer>
-      <span><a href="https://github.com/TheRoccoB/testwebmonetization">View on Github</a></span>
+      <span><a href="https://github.com/TheRoccoB/testwebmonetization">View on GitHub</a></span>
     </v-footer>
   </v-app>
 </template>
