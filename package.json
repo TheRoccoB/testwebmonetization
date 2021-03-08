@@ -2,6 +2,7 @@
   "name": "test-web-monetization",
   "version": "1.0.0",
   "description": "A simple test for web monetization",
+  "homepage": "https://testwebmonetization.com/",
   "author": "Rocco Balsamo",
   "private": true,
   "scripts": {
